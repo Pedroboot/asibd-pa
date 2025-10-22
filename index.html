@@ -36,18 +36,70 @@
 			<p>No final, os diplomados estão aptos a atuar em diversas áreas da informática, como desenvolvimento de software, cibersegurança, inteligência artificial, sistemas distribuídos ou administração de redes. Trata-se de um curso exigente, mas recompensador, ideal para quem tem curiosidade, gosto pela tecnologia e vontade de criar soluções que impactem positivamente o mundo digital.
 			</p>
 		<div>
-		 <img width= "500" alt="Banner do Curso" src="./resources/images/banner_01.jpeg"/>		
+		 <img usemap="#Store_Link" width= "800" alt="Banner do Curso" src="./resources/images/banner_01.jpeg"/>
+		  <map name="Store_link">
+			<area shape="rect" target="blank" alt="Link para a referencia do Oculos" title="Oculos Digital" href="https://www.amazon.com" coords="500,40,620,100">
+			<area shape="rect" target="blank" alt="Link para DacheBord" title="DechBord" href="https://store.epicgames.com/" coords="303,64,561,388">
+		  </map>
 		</div>
+	<section>
+        <div>
+         <p>Video de Apresentacao do Site</p>
+        </div>
+        <div>
+                                        <!-- Reproducao do video -->    
+          <video src="./resources/video/video_curso.mp4" width="320" height="240" autoplay loop muted controls></video>
+        </div>
     </section>
-    <section>
-	<div>
-	 <p>Video de Apresentacao do Site</p>
-	</div>
-	<div>
-					<!-- Reproducao do video -->	
-	  <video src="./resources/video/video_curso.mp4" width="320" height="240" autoplay loop muted controls></video>
-	</div>
+
+
     </section>
+    	<!-- Seccao dos contactos -->
+     <section>
+	<div>
+		<div><h3>Entre em Contacto<h3></div>
+	 <div>
+	  <div> 
+	      <!-- Informacoes de Contactos-->
+	       <div> 
+		<dl>
+		   <dt>asibd.eicm@gmail.com</dt>
+		   <dd>Email Principal do Curso</dd>
+		   <dt>233 53 30</dt>
+		   <dd>Telefone oficial do Curso</dd>
+		   </dl>
+	       </div>
+	    	<!--Formulario Contactos-->
+	       <div>
+		<form action="#" method="POST">
+		  <div>
+		   <label for="name">Nome:</label><br/>
+		   <input type="text" id="name" name="name" placeholder="Nome do Utilizador" required><br></br>
+		  </div>
+
+		  <div>
+		   <label for="Email">Email:</label><br/>
+                   <input type="text" id="Email" name="Email" placeholder="exemplo@gmail.com" required><br></br>
+		 </div>
+
+		 <div>
+		  <label for="Birth">Birth:</label><br/>
+                  <input type="text" id="Birth" name="Birth" placeholder="DD/MM/YYYY" required><br></br>
+		 </div>
+		 <div>
+			 <p>Genero</p>
+                  <input type="radio" id="male" name="gender" value="M">
+		  <label for="male">Masculino</label><br>
+		  <input type="radio" id="female" name="gender" value="F">
+                  <label for="female">Feminino</label><br>
+		 </div>
+
+		</form>
+	       </div>
+	  </div>
+	 </div>
+	</div>
+     </section>
    </main>
      <footer>
 	<hr>
