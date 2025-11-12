@@ -26,8 +26,22 @@ ul {
 	display: flex;
 }
 
-nav ul li{
-	padding: 12px;
+.list-item li {
+	margin: 4px;
+}
+
+.list-item a {
+	background-color: blue;
+	color: red;
+	text-decoration: none;
+	padding: 15px 25px;
+	border-bottom: 4px solid #313b44;
+	border-radius:50%;
+}
+
+.list-item a:hover {
+	color: blue;
+	background-color: black;
 }
 
 .main-container {
@@ -37,15 +51,18 @@ nav ul li{
 }
 
 .banner {
-
-	/*padding-left: 5px;
+	/*
+	padding-left: 5px;
 	padding-right: 50px;
 	padding-bottom: 10;
 	padding-top: 15px;*/
 	padding: 50px 50px 100px 100px;
-	width: 100%;
+	width: 100px;
 	height: 200px;
-	background-color: lightgrey;
+	background-color: #313b44;
+	margin:40px;
+	color: lightgreen;
+
 }
 
 .cinza-container {
