@@ -2,7 +2,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box; /*A esplicar*/
-        color: #242625;
+        /*color: #242625;*/
 }
 
 body {
@@ -27,27 +27,33 @@ ul {
 }
 
 .list-item li {
-        margin: 4px;
+        margin: 10px;
 }
 
 .list-item a {
-	background-color: lightblue;
+	background-color: green;
         color: #fff;
         text-decoration: none;
         padding: 15px 25px;
-        border-bottom: 4px solid #313b44;
-        border-radius:50%;
+        border-bottom: 4px solid black;
+        border-radius: 40px 20px;
 }
 
 .list-item a:hover {
-        color: blue;
-        background-color: black;
+        color: black;
+        background-color: lightgreen;
 }
 
 .main-container {
         font-size: 16px;
         padding: 20px;
-        margin:20px, 0px;
+        margin:20px, 40px;
+	
+	/*background-image: url("../resources/images/new-images/icon1.png");
+	background-repeat: round;
+	background-attachment: local;
+	/*background-position: center-center;
+	background-size: 50px 50px;*/
 }
 
 .banner {
@@ -56,13 +62,18 @@ ul {
         padding-right: 50px;
         padding-bottom: 10;
         padding-top: 15px;*/
-        padding: 50px 50px 100px 100px;
-        width: 50px;
-        height: 50px;
-        background-color: #313b44;
-        margin:40px;
+      	width 100%;
+	border: 8px solid #1A732C;
+	height: 200px;
+	color: rgb(239, 234, 234);
+	padding: 20px;
+        /*background-image: url("../resources/images/new-images/img2.jpg");
+	background-image: linear-gradient(105deg, rgb(11 97 468 / 100%) 38%, rgb(44 278 4 / 100%) 86%);
+        margin-bottom: 40px;
 	display: flex;
-        color: lightgreen;
+	border-radius: 40px 20px ;
+	background-clip: padding-box;*/
+	background: blue url("../resources/images/new-images/img2.jpg") repeat center/cover;
 }
 
 .cinza-container {
