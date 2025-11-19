@@ -91,3 +91,27 @@ ul {
         /*display: inline-block */
 }
 
+p {
+	color: #444444;
+	font-size: 1.3em;
+	font-family: "Lato", Arial, sans-serif;
+	/*font-stretch: expanded;*/
+	text-align: justify;
+	font-style: normal;
+	font-weight: none;
+	text-transform: none;
+	text-decoration: none;
+	/*text-shadow: 4px 4px 6px green*/
+	line-height: 1.5;
+	letter-spacing: 0px;
+	word-spacing: 2px;
+	text-indent: 15px;
+}
+
+.title-first {
+	display: block;
+	font-size: 4,4em;
+	text-shadow: 6px 6px 10px green, 1px 6px 10px #34C37D;
+	margin: 20px 0px;
+	text-align: center;	
+}
