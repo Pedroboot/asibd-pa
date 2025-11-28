@@ -56,6 +56,90 @@ ul {
 	background-size: 50px 50px;*/
 }
 
+.container{
+	border: 2px;
+	padding: 20px;
+	max-width: 600px;
+	display: block;
+}	
+
+.container2{
+	border: 2px solid #ddd;
+	padding: 20px;
+	max-width: 20px;
+	display: inline;
+}
+
+.titulo-sticky{
+	position: sticky;
+	top: 0px;
+	background-color: #fff;
+	padding: 10px;
+	font-size: 24px;
+	border-bottom: 2px solid #ccc;
+
+}
+
+.caixa {
+	width: 45%;
+	margin: 30px;
+	display: block;
+	padding: 20px;
+	background-color: #00fdd0;
+	transition: all 0.3s ease;
+}
+
+.caixa:hover{
+	transform: scale(1.2) rotate(45deg);
+	background: red;
+	border-radius: 15px;
+	box-shadow: 0px 0px 25px red;
+ }
+
+
+.caixa2{
+	width: 45%;
+	margin: 30px;
+	display: block;
+	padding: 20px;
+	background-color: #00fdd0;
+	transition: transform 0.4s ease, box-shadow 0.4s;
+}
+
+.caixa2:hover{
+	background: red;
+	display: block;
+	margin:10px;
+	padding:10px;
+	transform: translateY(-10px);
+	box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+}
+
+.caixa3{
+	width: 35%;
+	height: 96px;
+	padding: 20px;
+	margin: 50px;
+	background-color: #ffdaad;
+	animation: girar 3s linear infinite;
+}
+
+.caixa3:hover{
+	box-shadow: 0px 0px 25px red;
+	animation-play-state:paused;
+}
+
+@keyframes parar{
+	
+}
+
+@keyframes girar{
+	0%{transform:rotate(0deg)}
+	50%{transform:rotate(180deg)}
+	100%{transform:rotate(360deg)}
+
+}
+
 .banner {
         /*
         padding-left: 5px;
@@ -110,7 +194,7 @@ p {
 
 .title-first {
 	display: block;
-	font-size: 4,4em;
+	font-size: 2.8em;
 	text-shadow: 6px 6px 10px green, 1px 6px 10px #34C37D;
 	margin: 20px 0px;
 	text-align: center;	
